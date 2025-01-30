@@ -22,8 +22,9 @@ requirements:
     - python {{ python_min }}
     - setuptools-markdown
   run:
-    - eth-utils >=2.0.0
     - eth-keys >=0.4.0
+    - eth-utils >=2.0.0
+    - py_ecc >=5.2.0
     - pycryptodome >=3.6.6,<4.0.0
     - python >={{ python_min }}
 
